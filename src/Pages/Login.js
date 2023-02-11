@@ -82,7 +82,7 @@ function Login(props) {
 
     return (
         <>
-            <div className='vh-100 d-flex align-items-center justify-content-center '>
+            <div className='cal d-flex align-items-center justify-content-center '>
                 <div>
                     <div>
                         <PageTitle name="LOGIN" />
