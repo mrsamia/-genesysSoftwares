@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Pages/About';
+import CreateAccount from './Pages/CreateAccount';
+import Home from './Pages/Home';
+import Login from './Pages/Login';
+import Shop from './Pages/Shop';
+import Contact from './Pages/Contact';
+import MyNav from './Components/Nav/MyNav';
+import RecoverPass from './Pages/RecoverPass';
+import UserList from './Pages/UserList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Shop" element={<Shop />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/CreateAccount" element={<CreateAccount />} />
+        <Route path="/recoverPass" element={<RecoverPass />} />
+        <Route path="/UserList" element={<UserList />} />
+      </Routes>
+    </>
   );
 }
 

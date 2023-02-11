@@ -1,0 +1,46 @@
+.bg-color {
+    background-color: #F0F0F0;
+}
+
+.footer-header {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #2D2929;
+    text-transform: uppercase;
+
+}
+
+.pt-95 {
+    padding-top: 95px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.footer-email {
+    width: 499px;
+    height: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #2D2929;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+}
+
+.select-footer {
+    padding: 12px 16px;
+    gap: 10px;
+    width: 222.3px;
+    height: 48px;
+    border: 1px solid #2D2929;
+
+}
