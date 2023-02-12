@@ -51,17 +51,18 @@ function Footer(props) {
     <div className='bg-color'>
       <div className='ps-5 pe-5 pt-95 pb-40'>
         <div className='row'>
-          <div className='col-sm-12 col-lg-3'>
+          <div className='col-sm-12 col-lg-3 mq-cnter'>
             <div>
-              <div>
+              <div className='mq-cnter'>
                 <img src={require('../../Images/flogo.jpg')} />
               </div>
-              <div className='pt-4'>
-                <p>By completing this form you're signing <br></br>up to receive our emails and can<br></br> unsubscribe at any time</p>
+              <div className='pt-4 mq-cnter'>
+                <p>By completing this form you're signing up to receive our emails and can unsubscribe at any time</p>
               </div>
             </div>
           </div>
-          <div className='col-1'>
+          <div className=' col-sm-12 col-lg-1 mq-cnter pt-mq'>
+            <div>
             <div>
               <h5 className='footer-header pb-2'>Menu</h5>
             </div>
@@ -72,8 +73,9 @@ function Footer(props) {
                 </div>
               ))
             }
+            </div>
           </div>
-          <div className='col-sm-12 col-lg-2 d-flex justify-content-center'>
+          <div className='col-sm-12 col-lg-2 d-flex justify-content-center pt-mq'>
             <div>
               <div>
                 <h5 className='footer-header pb-2'>customer care</h5>
@@ -87,7 +89,7 @@ function Footer(props) {
               }
             </div>
           </div>
-          <div className='col-sm-12 col-lg-2 d-flex justify-content-center'>
+          <div className='col-sm-12 col-lg-2 d-flex justify-content-center pt-mq'>
             <div>
               <div>
                 <h5 className='footer-header pb-2'>about us</h5>
@@ -101,18 +103,18 @@ function Footer(props) {
               }
             </div>
           </div>
-          <div className='col-sm-12 col-lg-4 d-flex justify-content-end'>
+          <div className='col-sm-12 col-lg-4 d-flex justify-content-end mq-cnter pt-mq'>
             <div>
               <div>
-                <h5 className='footer-header pb-2'>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                <h5 className='footer-header pb-2 mq-cnter'>SUBSCRIBE TO OUR NEWSLETTER</h5>
               </div>
-              <div>
+              <div className='mq-cnter'>
                 <p>Signup for our newsletter to stay up to date on sales and events.</p>
               </div>
-              <div className='py-3'>
+              <div className='py-3 mq-cnter'>
                 <input type="email" placeholder='Email' className='footer-email' />
               </div>
-              <div>
+              <div className='mq-cnter'>
                 <p>By completing this form you're signing up to receive our emails and can unsubscribe at any time</p>
               </div>
             </div>
@@ -125,15 +127,15 @@ function Footer(props) {
 
 
     <div className='ps-5 pe-5'>
-    <div className='row'>
-        <div className='col-sm-12 col-lg-6 d-flex align-items-end'>
+    <div className='row '>
+        <div className='col-sm-12 col-lg-6 d-flex align-items-end mq-cnter'>
          <div>
          <img src={require('../../Images/fb.jpg')} />
           <img src={require('../../Images/tw.jpg')} />
           <img src={require('../../Images/in.jpg')} />
          </div>
         </div>
-        <div className='col-sm-12 col-lg-6 d-flex justify-content-end'>
+        <div className='col-sm-12 col-lg-6 d-flex justify-content-end mq-cnter pt-mq'>
         <div>
         <select className="select-footer">
             <option selected>United States (USD $)</option>

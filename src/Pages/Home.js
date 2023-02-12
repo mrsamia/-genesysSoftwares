@@ -10,16 +10,16 @@ function Home(props) {
         <div>
             <div className='hero-section'>
                 <div className="hero-text-wrapper">
-                    <h1 className='hero-text'>Lorem Ipsum is simply <br></br>dummy text of the printing</h1>
-                    <h3 className='f-20 pt-3'>Lorem Ipsum is simply dummy text of the.</h3>
-                    <div className='pt-5 d-flex justify-content-start'>
+                    <h1 className='hero-text pl-mq'>Lorem Ipsum is simply dummy text of the printing</h1>
+                    <h3 className='f-20 pt-3 pl-mq'>Lorem Ipsum is simply dummy text of the.</h3>
+                    <div className='pt-5 d-flex justify-content-start pl-mq'>
                         <button className='shop-now-btn'>Shop Now</button>
                     </div>
                 </div>
             </div>
             <section className='section-wrapper bg-color'>
                 <div className='container'>
-                    <div>
+                    <div className='mq-cnter'>
                         <SectionHeader name="Our Collection" />
                     </div>
                     <Collection />

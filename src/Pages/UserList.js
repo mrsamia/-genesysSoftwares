@@ -7,7 +7,7 @@ function UserList(props) {
             <div className='container vh-100 d-flex align-items-center justify-content-center'>
 
                 <table class="table caption-top">
-                    <caption>User List</caption>
+                    <caption className='f-17'>User List</caption>
                     <thead>
                         <tr>
                             <th scope="col">First Name</th>
