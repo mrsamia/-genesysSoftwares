@@ -55,7 +55,7 @@ function Footer(props) {
           <div className='col-sm-12 col-lg-3 mq-cnter'>
             <div>
               <div className='mq-cnter'>
-                <img src={require('../../Images/flogo.jpg')} />
+                <img src={require('../../Images/flogo.png')} />
               </div>
               <div className='pt-4 mq-cnter'>
                 <p>By completing this form you're signing up to receive our emails and can unsubscribe at any time</p>
