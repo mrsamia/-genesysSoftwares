@@ -16,8 +16,9 @@ function CreateAccount(props) {
                     <div>
                         <p className='text-center pb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <form>
-                        <div>
+                    <form className='d-flex justify-content-center'>
+                       <div>
+                       <div>
                             <Input placeholder="First name" />
                         </div>
                         <div className='pt-3 pb-3'>
@@ -32,10 +33,11 @@ function CreateAccount(props) {
                         <div>
                             <Button name="CREATE" />
                         </div>
+                       </div>
                     </form>
-                    <div className='d-flex justify-content-center'>
+                    <div className='d-flex justify-content-center pt-2'>
                         <p className='f-17'>Already have an account?</p>
-                        <Link to="/Login"> <p className='f-17 pl-2'>Back to Login</p></Link>
+                        <Link to="/Login"> <p className='f-17 ps-2'>Back to Login</p></Link>
                     </div>
                 </div>
             </div>

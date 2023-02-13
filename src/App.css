@@ -122,12 +122,19 @@
   border: 1px solid black;
 }
 
-
+.vertical {
+  border-left: 1px solid  #D2D2D2;
+  height: 660px;
+  position:absolute;
+  left: 50%;
+}
 
 
 
 @media screen and (max-width: 1200px) {
- 
+  .vertical {
+    display: none;
+  }
   .collection-img {
     width: 261px;
     height: 261px;
@@ -140,6 +147,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .vertical {
+    display: none;
+  }
+  
   .hero-text {
     font-size: 30px;
     line-height: 44px;
@@ -154,8 +165,8 @@
     padding-top: 25px;
   }
   .mq-cnter{
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center!important;
  
   }
   .shop-now-btn {
@@ -167,5 +178,12 @@
     width: 161px;
     height: 161px;
     background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mq-cnter{
+    display: flex;
+    justify-content: center;
+ 
   }
 }

@@ -16,7 +16,8 @@ function RecoverPass(props) {
                     <div>
                         <p className='text-center pb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <form>
+                    <form className='d-flex justify-content-center'>
+                        <div>
                         <div>
                             <Input placeholder="Email" />
                         </div>
@@ -26,10 +27,15 @@ function RecoverPass(props) {
                         <div>
                             <Button name="Submit" />
                         </div>
+                        </div>
                     </form>
-                    <div className='d-flex justify-content-center'>
-                        <Link to="#" className='text-decoration-none'> <p className='f-17'>Remember Password?</p></Link>
-                        <Link to="/Login"><p className='f-17 pl-2'>Back to Login</p></Link>
+                    <div className='d-flex justify-content-center pt-2'>
+                      <div>
+                      <Link to="#" className='text-decoration-none'> <p className='f-17'>Remember Password ?</p></Link>
+                      </div>
+                      <div className=' '>
+                      <Link to="/Login" ><p className='f-17 ps-2'>Back to Login</p></Link>
+                      </div>
                     </div>
                 </div>
             </div>

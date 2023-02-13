@@ -110,9 +110,9 @@ function Login(props) {
                             </div>
                         </div>
                     </form>
-                    <div className='d-flex justify-content-center'>
+                    <div className='d-flex justify-content-center pt-2'>
                         <Link to="/CreateAccount" className='text-decoration-none'><p className='f-17'>Create account /</p></Link>
-                        <Link to="/recoverPass" className='text-decoration-none'><p className='f-17 pl-2'>Forgot your password?</p></Link>
+                        <Link to="/recoverPass" className='text-decoration-none'><p className='f-17 ps-2'>Forgot your password?</p></Link>
                     </div>
                 </div>
             </div>
