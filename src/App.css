@@ -10,7 +10,7 @@
 .hero-section {
   background-image: url('../src/Images/HeroBanner.png');
   background-color: #cccccc;
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
